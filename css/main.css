@@ -112,6 +112,14 @@ main section#primary h1 {
   text-transform: uppercase;
 }
 
+@media (min-width: 840px) {
+  main section#primary h1 {
+    width: 30%;
+    font-size: 4em;
+    line-height: .9em;
+  }
+}
+
 main section#primary p {
   font-size: 1.4em;
 }
@@ -127,5 +135,13 @@ main section#primary a {
   text-align: center;
   margin: 50px auto 0 auto;
   padding: 15px;
+}
+
+@media (min-width: 840px) {
+  main section#primary a {
+    grid-area: primary;
+    text-align: left;
+    margin: 4em 0 0 4em;
+  }
 }
 /*# sourceMappingURL=main.css.map */
